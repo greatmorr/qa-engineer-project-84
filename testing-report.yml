@@ -41,3 +41,33 @@
 - summary: |
     Просмотр товара
   status: pass
+- summary: |
+    добавление товара из наличия в корзину
+  status: pass
+- summary: |
+    добавление товара, которого нет в наличии в корзину
+  status: fail
+- summary: |
+    отображение атрибутов товара в корзине
+  status: fail
+- summary: |
+    редактирование корзины - удаление товара кнопкой delete
+  status: pass
+- summary: |
+    очистка корзины с помощью кнопки Clear cart
+  status: pass
+- summary: |
+    оформление заказа
+  status: fail
+- summary: |
+    выход из корзины с помощью кнопки "Continue shopping"
+  status: pass
+- summary: |
+    навигация по магазину с помощью кнопок "Next" и "Previous"
+  status: fail
+- summary: |
+    переключение на русский язык
+  status: pass
+- summary: |
+    переключение на янглийский язык
+  status: pass
