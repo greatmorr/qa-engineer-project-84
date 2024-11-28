@@ -1,0 +1,78 @@
+---
+test-cases:
+  - summary: |
+      Позитивный поиск по ключевому слову
+    status: pass
+  - summary: |
+      Негативный поиск по ключевому слову
+    status: fail
+  - summary: |
+      Поиск по любому бренду с помощью чек-бокса
+    status: pass
+  - summary: |
+      Поиск по нескольким брендам одновременно с помощью чек-бокса
+    status: pass
+  - summary: |
+      Поиск по категории из выпадающего списка
+    status: pass
+  - summary: |
+      Сброс выбранной категории
+    status: pass
+  - summary: |
+      Поиск товаров одновременно по бренду и категории
+    status: fail
+  - summary: |
+      Поиск товаров, которых нет в наличии
+    status: fail
+  - summary: |
+      Поиск товаров по цене "до"
+    status: pass
+  - summary: |
+      Поиск товаров по цене "от"
+    status: pass
+  - summary: |
+      Поиск товаров в ценовом диапазоне "от" - "до"
+    status: pass
+  - summary: |
+      Поиск товаров по цене и категории одновременно
+    status: fail
+  - summary: |
+      Поиск товаров по цене и бренду одновременно
+    status: fail
+#тут закончила
+- summary: |
+    Просмотр товара
+  status: pass
+- summary: |
+    добавление товара из наличия в корзину
+  status: pass
+- summary: |
+    добавление товара, которого нет в наличии в корзину
+  status: fail
+- summary: |
+    отображение атрибутов товара в корзине
+  status: fail
+- summary: |
+    редактирование корзины - удаление товара кнопкой delete
+  status: pass
+- summary: |
+    очистка корзины с помощью кнопки Clear cart
+  status: pass
+- summary: |
+    оформление заказа
+  status: fail
+- summary: |
+    выход из корзины с помощью кнопки "Continue shopping"
+  status: pass
+- summary: |
+    навигация по магазину с помощью кнопок "Next" и "Previous"
+  status: fail
+- summary: |
+    навигация по магазину с помощью кнопки "Store"
+  status: fail
+- summary: |
+    переключение на русский язык
+  status: pass
+- summary: |
+    переключение на английский язык
+  status: pass
