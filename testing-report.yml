@@ -66,6 +66,9 @@
     навигация по магазину с помощью кнопок "Next" и "Previous"
   status: fail
 - summary: |
+    навигация по магазину с помощью кнопки "Store"
+  status: fail
+- summary: |
     переключение на русский язык
   status: pass
 - summary: |
