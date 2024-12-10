@@ -76,7 +76,7 @@
   status: fail
 - summary: |
     переключение на русский язык
-  status: pass
+  status: fail
 - summary: |
     переключение на английский язык
   status: pass
